@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar />
       <Main />
-      <Api />
+      {/* <Api /> */}
     </div>
   );
 }
