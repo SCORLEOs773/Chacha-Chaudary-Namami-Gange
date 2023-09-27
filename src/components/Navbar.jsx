@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src={FLogo} height={"100px"} alt="NMCG" />
+            <img src={FLogo} alt="NMCG" />
           </Link>
           <button
             className="navbar-toggler"

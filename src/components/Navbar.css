@@ -1,6 +1,18 @@
 nav {
-  height: 120px;
-  background: linear-gradient(to right, rgb(122, 188, 216), rgb(247, 153, 153));
-  font-family: "Tillana", cursive;
+  font-family: 'sans';
   font-size: larger;
+}
+
+/* .with-border {
+  border: 2px solid skyblue;
+  padding: 8px 16px;
+  border-radius: 5px;
+} */
+
+nav img {
+  width: 50%;
+}
+
+nav > li > a {
+  color: white;
 }

@@ -12,19 +12,19 @@ export default function Main() {
 
       <div className="content d-flex justify-content-center gap-5">
         <CardMain
-          title={"NMCG Walkthrough"}
+          title="NMCG Walkthrough"
           img={nmcgImg}
-          btnText={"Access Walkthrough"}
+          btnText="Access Walkthrough"
           link="https://nmcg-walkthrough.vercel.app/"
-          footText={"https://nmcg.nic.in/"}
+          footText="https://nmcg.nic.in/"
         />
         <CardMain
-          title={"Chacha Chaudary ChatBot"}
+          title="Chacha Chaudary ChatBot"
           img={cc2}
           // img={ccHi}
-          btnText={"Ask Questions!"}
+          btnText="Ask Questions!"
           link="./chatbot"
-          footText={"Chacha Chaudary"}
+          footText="Chacha Chaudary"
         />
       </div>
     </div>
