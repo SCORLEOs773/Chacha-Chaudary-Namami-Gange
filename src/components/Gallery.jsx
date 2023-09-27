@@ -1,11 +1,14 @@
 import React from "react";
+import img1 from "../assets/gallery/906691-bjprdxtmoe-1528986650.jpg"
+import img3 from "../assets/gallery/Namami-Gange-UNEP.jpg"
+import img5 from "../assets/gallery/benefit-of-namami-gange-project-the-integrated-ganga-conservation-mission.jpg"
 
 const Gallery = () => {
   return (
 <div class="row">
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+      src={img1}
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Boat on Calm Water"
     />
@@ -25,7 +28,7 @@ const Gallery = () => {
     />
 
     <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+      src={img3}
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Boat on Calm Water"
     />
@@ -33,7 +36,7 @@ const Gallery = () => {
 
   <div class="col-lg-4 mb-4 mb-lg-0">
     <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+      src={img5}
       class="w-100 shadow-1-strong rounded mb-4"
       alt="Waves at Sea"
     />

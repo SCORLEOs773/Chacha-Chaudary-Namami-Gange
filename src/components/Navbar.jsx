@@ -31,7 +31,6 @@ export default function Navbar() {
                 <Link
                   to="/chatbot"
                   className="nav-link active with-border"
-                  style={{ color: "indianred" }}
                   aria-current="page"
                   href="#"
                 >
@@ -42,7 +41,6 @@ export default function Navbar() {
                 <Link
                   to="/api"
                   className="nav-link with-border"
-                  style={{ color: "indianred" }}
                   href="#"
                 >
                   Programs & Initiatives
@@ -52,7 +50,6 @@ export default function Navbar() {
                 <Link
                   to="/"
                   className="nav-link with-border"
-                  style={{ color: "indianred" }}
                   href="#"
                 >
                   River Ecology
@@ -62,7 +59,6 @@ export default function Navbar() {
                 <Link
                   to="/gallery"
                   className="nav-link with-border"
-                  style={{ color: "indianred" }}
                   href="#"
                 >
                   Gallery
@@ -72,7 +68,6 @@ export default function Navbar() {
                 <Link
                   to="/"
                   className="nav-link with-border"
-                  style={{ color: "indianred" }}
                   href="#"
                 >
                   About Us

@@ -1,7 +1,5 @@
 .chatbot-container {
   margin-top: -10px;
-  width: 300%;
-  height: 500px;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
 }
@@ -12,8 +10,8 @@
 
 .react-chatbot-kit-chat-container {
   margin-top: -180px;
-  width: 250%;
-  transform: translateX(-300px);
+  width: 150%;
+  transform: translateX(-150px);
   border-radius: 10px;
   height: 500px;
   background-color: #f0f0f0;
@@ -31,7 +29,9 @@
 
 .react-chatbot-kit-chat-bot-message {
   margin-left: 16px;
+  width: 25rem;
 }
+
 
 .react-chatbot-kit-user-chat-message {
   margin-left: 16px;
