@@ -2,8 +2,9 @@ import React from "react";
 // import NavLogo from "../assets/images/navlogo.png";
 // import Name from "../assets/images/NMCG name.png";
 import FLogo from "../assets/images/Full Logo.png";
-// import CCHead from "../assets/images/cc head.png";
-// import Formula from "../assets/images/formula.gif";
+import CCHead from "../assets/images/cc head.png";
+import Formula from "../assets/images/formula.gif";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -11,13 +12,13 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             {/* <img src={NavLogo} alt="" /> */}
             {/* <img src={Name} alt="" /> */}
             <img src={FLogo} alt="NMCG" />
             {/* <img src={CCHead} alt="NMCG" /> */}
             {/* <img src={Formula} alt="NMCG" /> */}
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,58 +28,63 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span classNameName="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
               className="navbar-nav me-auto mb-2 mb-lg-0 gap-4"
               style={{ marginLeft: "60px" }}
             >
-              <li className="nav-item">
-                <a
-                  className="nav-link active with-border"
-                  style={{ color: "skyblue" }}
+              <li classNameName="nav-item">
+                <Link
+                  to="/chatbot"
+                  classNameName="nav-link active with-border"
+                  style={{ color: "crimson" }}
                   aria-current="page"
                   href="#"
                 >
                   Chacha Chaudary
-                </a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link with-border"
-                  style={{ color: "skyblue" }}
+              <li classNameName="nav-item">
+                <Link
+                  to="/api"
+                  classNameName="nav-link with-border"
+                  style={{ color: "crimson" }}
                   href="#"
                 >
                   Programs & Initiatives
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
+                  to="/"
                   className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
                   River Ecology
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
+                  to="/gallery"
                   className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
                   Gallery
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
+                  to="/"
                   className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

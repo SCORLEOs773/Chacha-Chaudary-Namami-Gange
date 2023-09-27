@@ -4,14 +4,15 @@ import cc2 from "../assets/images/cc head2.png";
 // import ccHi from "../assets/images/cc hi gif.gif";
 // import nmcgImg from "../assets/images/NMCG name.png";
 import nmcgImg from "../assets/images/nmcg hindi big.jpeg";
-import BgVid from "../assets/videos/cc-vid-cut.gif";
+import BgGif from "../assets/videos/cc-vid-cut.gif";
+import BgVid from "../assets/videos/cc vid cut.mp4";
 import CardMain from "../components/CardMain";
 
 export default function Main() {
   return (
     <>
       <div className="video-background-container">
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -25,7 +26,8 @@ export default function Main() {
         >
           <source src={BgVid} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <img className="video-background-container" src={BgGif} alt="" />
 
         <div className="content d-flex justify-content-center">
           <CardMain
