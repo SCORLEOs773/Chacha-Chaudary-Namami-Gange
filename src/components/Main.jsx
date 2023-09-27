@@ -5,7 +5,6 @@ import cc2 from "../assets/images/cc head2.png";
 // import nmcgImg from "../assets/images/NMCG name.png";
 import nmcgImg from "../assets/images/nmcg hindi big.jpeg";
 import BgGif from "../assets/videos/cc-vid-cut.gif";
-import BgVid from "../assets/videos/cc vid cut.mp4";
 import CardMain from "../components/CardMain";
 
 export default function Main() {
@@ -46,6 +45,7 @@ export default function Main() {
             // img={ccHi}
             desc={"Description of Chatbot"}
             btnText={"Ask Questions!"}
+            link="./chatbot"
             footText={"Chacha Chaudary"}
           />
         </div>
