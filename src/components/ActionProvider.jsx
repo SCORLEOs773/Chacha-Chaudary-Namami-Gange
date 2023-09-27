@@ -5,7 +5,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   const handleCall = (query) => {
 
     (async () => {
-      const msg = await fetch("http://localhost:5000/chat", {
+      const msg = await fetch("https://squid-app-n35ww.ondigitalocean.app/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
