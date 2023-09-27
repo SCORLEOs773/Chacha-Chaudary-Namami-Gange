@@ -37,7 +37,7 @@ export default function Main() {
             footText="https://nmcg.nic.in/"
           />
           <CardMain
-            title="Chacha Chaudary ChatBot"
+            title="Chacha Chaudhary ChatBot"
             img={cc2}
             // img={ccHi}
             btnText="Ask Questions!"
