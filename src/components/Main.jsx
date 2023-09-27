@@ -34,6 +34,7 @@ export default function Main() {
             img={nmcgImg}
             desc={"Description of Walkthrough of NMCG"}
             btnText={"Access Walkthrough"}
+            link="https://nmcg-walkthrough.vercel.app/"
             footText={"https://nmcg.nic.in/"}
           />
           <CardMain

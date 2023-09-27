@@ -1,9 +1,9 @@
 import React from "react";
-import NavLogo from "../assets/images/navlogo.png";
-import Name from "../assets/images/NMCG name.png";
+// import NavLogo from "../assets/images/navlogo.png";
+// import Name from "../assets/images/NMCG name.png";
 import FLogo from "../assets/images/Full Logo.png";
-import CCHead from "../assets/images/cc head.png";
-import Formula from "../assets/images/formula.gif";
+// import CCHead from "../assets/images/cc head.png";
+// import Formula from "../assets/images/formula.gif";
 import "./Navbar.css";
 
 export default function Navbar() {

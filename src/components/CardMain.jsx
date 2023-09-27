@@ -12,11 +12,10 @@ export default function CardMain(props) {
           <h5 class="card-title my-3">{props.title}</h5>
           <img src={props.img} height={"300px"} alt="" />
           <p class="card-text my-3">{props.desc}</p>
-          <a href="#" class="btn btn-primary">
+          <a href={props?.link || "#"} class="btn btn-primary">
             {props.btnText}
           </a>
         </div>
-        <div class="card-footer text-body-secondary">{props.footText}</div>
       </div>
     </div>
   );
