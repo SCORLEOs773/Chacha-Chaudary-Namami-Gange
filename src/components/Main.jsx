@@ -28,5 +28,23 @@ export default function Main() {
         />
       </div>
     </div>
+        <div className="content d-flex justify-content-center gap-5">
+          <CardMain
+            title="NMCG Walkthrough"
+            img={nmcgImg}
+            btnText="Access Walkthrough"
+            link="https://nmcg-walkthrough.vercel.app/"
+            footText="https://nmcg.nic.in/"
+          />
+          <CardMain
+            title="Chacha Chaudary ChatBot"
+            img={cc2}
+            // img={ccHi}
+            btnText="Ask Questions!"
+            link="./chatbot"
+            footText="Chacha Chaudary"
+          />
+        </div>
+      </div>
   );
 }
