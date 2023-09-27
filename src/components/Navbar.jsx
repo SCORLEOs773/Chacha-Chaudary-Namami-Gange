@@ -9,9 +9,9 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             {/* <img src={NavLogo} alt="" /> */}
             {/* <img src={Name} alt="" /> */}
             <img src={FLogo} alt="NMCG" />
@@ -19,7 +19,7 @@ export default function Navbar() {
             {/* <img src={Formula} alt="NMCG" /> */}
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -27,16 +27,16 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
-              class="navbar-nav me-auto mb-2 mb-lg-0 gap-4"
+              className="navbar-nav me-auto mb-2 mb-lg-0 gap-4"
               style={{ marginLeft: "60px" }}
             >
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link active with-border"
+                  className="nav-link active with-border"
                   style={{ color: "skyblue" }}
                   aria-current="page"
                   href="#"
@@ -44,36 +44,36 @@ export default function Navbar() {
                   Chacha Chaudary
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link with-border"
+                  className="nav-link with-border"
                   style={{ color: "skyblue" }}
                   href="#"
                 >
                   Programs & Initiatives
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link with-border"
+                  className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
                   River Ecology
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link with-border"
+                  className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
                   Gallery
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link with-border"
+                  className="nav-link with-border"
                   style={{ color: "crimson" }}
                   href="#"
                 >
