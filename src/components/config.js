@@ -12,7 +12,6 @@ const config = {
     ),
   ],
   customComponents: {
-    // Replaces the default header
     header: () => (
       <div
         style={{

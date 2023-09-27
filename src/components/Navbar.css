@@ -1,16 +1,6 @@
 nav {
-  /* background: linear-gradient(to right, rgb(240, 56, 56), rgb(99, 210, 235)); */
+  height: 120px;
   background: linear-gradient(to right, rgb(122, 188, 216), rgb(247, 153, 153));
   font-family: "Tillana", cursive;
   font-size: larger;
-}
-
-/* .with-border {
-  border: 2px solid skyblue;
-  padding: 8px 16px;
-  border-radius: 5px;
-} */
-
-nav > li > a {
-  color: white;
 }

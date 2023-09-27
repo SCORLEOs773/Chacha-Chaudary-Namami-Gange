@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src={FLogo} alt="NMCG" />
+            <img src={FLogo} height={"100px"} alt="NMCG" />
           </Link>
           <button
             className="navbar-toggler"
@@ -35,7 +35,7 @@ export default function Navbar() {
                   aria-current="page"
                   href="#"
                 >
-                  Chacha Chaudary
+                  Chacha Chaudhary
                 </Link>
               </li>
               <li classNameName="nav-item">
