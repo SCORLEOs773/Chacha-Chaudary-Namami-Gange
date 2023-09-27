@@ -7,11 +7,9 @@ const botName = "Chacha Chaudhary";
 const config = {
   botName: botName,
   initialMessages: [
-    createChatBotMessage(`Hi I'm ${botName}`),
-    createChatBotMessage("How may I help you today?", {
-      // widget: "airportSelector",
-      delay: 500,
-    }),
+    createChatBotMessage(
+      `Hi I'm ${botName} and I'm here to tell you all about the Namami Gange project.`
+    ),
   ],
   customComponents: {
     // Replaces the default header

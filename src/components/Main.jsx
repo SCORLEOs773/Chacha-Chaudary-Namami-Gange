@@ -1,8 +1,6 @@
 import React from "react";
 import "./Main.css";
 import cc2 from "../assets/images/cc head2.png";
-// import ccHi from "../assets/images/cc hi gif.gif";
-// import nmcgImg from "../assets/images/NMCG name.png";
 import nmcgImg from "../assets/images/nmcg hindi big.jpeg";
 import BgGif from "../assets/videos/cc-vid-cut.gif";
 import CardMain from "../components/CardMain";
