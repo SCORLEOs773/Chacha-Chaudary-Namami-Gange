@@ -37,6 +37,8 @@ export default function Navbar() {
                   Chacha Chaudhary
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/api" className="nav-link with-border" href="#">
               <li classNameName="nav-item">
                 <Link
                   to="/api"
@@ -47,29 +49,17 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/"
-                  className="nav-link with-border"
-                  href="#"
-                >
+                <Link to="/" className="nav-link with-border" href="#">
                   River Ecology
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/gallery"
-                  className="nav-link with-border"
-                  href="#"
-                >
+                <Link to="/gallery" className="nav-link with-border" href="#">
                   Gallery
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/"
-                  className="nav-link with-border"
-                  href="#"
-                >
+                <Link to="/about" className="nav-link with-border" href="#">
                   About Us
                 </Link>
               </li>

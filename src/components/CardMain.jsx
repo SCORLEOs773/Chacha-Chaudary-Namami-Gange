@@ -11,7 +11,7 @@ export default function CardMain(props) {
           width: "400px",
           opacity: "0.85",
           color: "crimson",
-          marginTop: "-85px",
+          // marginTop: "-10px",
         }}
       >
         <div className="card-body" style={{ fontFamily: "Tillana" }}>
