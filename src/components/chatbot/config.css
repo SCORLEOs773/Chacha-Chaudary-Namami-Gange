@@ -20,13 +20,27 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 600px) and (max-width: 800px){
   .react-chatbot-kit-chat-container {
-    width: 100%;
+    width: 80%;
     transform: translateX(35px); 
   }
 }
 
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+  .react-chatbot-kit-chat-container {
+    width: 60%;
+    transform: translateX(100px); 
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px){
+  .react-chatbot-kit-chat-container {
+    width: 50%;
+    transform: translateX(120px); 
+  }
+}
 
 .react-chatbot-kit-chat-inner-container {
   width: 100%;
