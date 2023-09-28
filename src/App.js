@@ -2,8 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
-// import Api from "./components/Api";
-import ChatBot from "./components/ChatBot";
+import ChatBot from "./components/chatbot/ChatBot";
 import Gallery from "./components/Gallery";
 
 function App() {

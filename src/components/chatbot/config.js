@@ -1,5 +1,5 @@
 import { createChatBotMessage } from "react-chatbot-kit";
-import cc2 from "../assets/images/cc head2.png";
+import cc2 from "../../assets/images/cc head2.png";
 import "./config.css";
 
 const botName = "Chacha Chaudhary";

@@ -3,7 +3,7 @@ import "./Main.css";
 import cc2 from "../assets/images/cc head2.png";
 import nmcgImg from "../assets/images/nmcg hindi big.jpeg";
 import BgGif from "../assets/videos/cc-vid-cut.gif";
-import CardMain from "../components/CardMain";
+import CardMain from "./chatbot/CardMain";
 
 export default function Main() {
   return (
