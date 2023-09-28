@@ -10,7 +10,7 @@ export default function Main() {
     <div className="video-background-container">
       <img className="video-background-container" src={BgGif} alt="" />
 
-      <div className="content d-flex justify-content-center gap-5">
+      <div className="content d-flex flex-column flex-md-row justify-content-center gap-5">
         <CardMain
           title="NMCG Walkthrough"
           img={nmcgImg}
