@@ -39,12 +39,6 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <Link to="/api" className="nav-link with-border" href="#">
-              <li classNameName="nav-item">
-                <Link
-                  to="/api"
-                  className="nav-link with-border"
-                  href="#"
-                >
                   Programs & Initiatives
                 </Link>
               </li>
